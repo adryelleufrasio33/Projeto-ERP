@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Novo Funcionário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Style.css" />
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h2>Novo Funcionário</h2>
+        </section>
+
+        <form id="form" class="form">
+
+          <div class="form-content">
+            <label for="username">Nome do Funcionário</label>
+            <input type="text" id="username" placeholder="Digite o nome do funcionário...">
+            <a class="error-message">Aqui vai a mensagem de erro</a>
+        </div>
+        
+            <div class="form-content">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone do funcionário...">
+              <a class="error-message">Aqui vai a mensagem de erro</a>
+            </div>
+          
+
+            <div class="form-content">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite o email do funcionário...">
+                <a class="error-message">Aqui vai a mensagem de erro</a>
+              </div>
+
+            <div class="form-content">
+                <label for="setor">Setor</label>
+                <input type="text" id="setor" placeholder="Digite o setor do funcionário...">
+                <a class="error-message">Aqui vai a mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+                <label for="conta">Conta </label>
+                <input type="text" id="conta" placeholder="Digite a conta corrente do funcionário...">
+                <a class="error-message">Aqui vai a mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+              <label for="conta">Endereço</label>
+              <input type="text" id="Endereço" placeholder="Digite o Endereço do funcionário...">
+              <a class="error-message">Aqui vai a mensagem de erro</a>
+          </div>
+
+          <div class="form-content">
+            <label for="data-nascimento">Nascimento</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" placeholder="Digite a data de nascimento do funcionário...">
+            <a class="error-message">Aqui vai a mensagem de erro</a>
+          </div>
+
+        <div class="form-content">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="Digite o CPF do funcionário...">
+          <a class="error-message">Aqui vai a mensagem de erro</a>
+        </div>
+      <div class="form-content">
+        <label for="rg">RG</label>
+        <input type="text" id="rg" name="rg" placeholder="Digite o RG do funcionário...">
+        <a class="error-message">Aqui vai a mensagem de erro</a>
+      </div>
+    <div class="form-content">
+      <label for="data-nascimento"> Admissão</label>
+      <input type="date" id="data-Admissão" name="data-nascimento" placeholder="Digite a Data de Admissão
+      do funcionário...">
+      <a class="error-message">Aqui vai a mensagem de erro</a>
+    </div>
+
+  <div class="form-content">
+    <label for="setor">Função</label>
+    <input type="text" id="Função" placeholder="Digite a Função do funcionário...">
+    <a class="error-message">Aqui vai a mensagem de erro</a>
+  </div>
+
+
+          <button type="submit">Cadastrar</button>
+        
+
+
+        </form>
+
+    </div>
+
+    <script src="./Script.js"></script> 
+</body>
+</html>

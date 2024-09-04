@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #121212;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(120deg, #3acbf0 0%, #8bb0ff 100%);
+    padding: 24px;
+    text-align: center;
+    color: #FFF;
+}
+
+.form {
+    padding: 18px;
+}
+
+.form-content {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.form-content label {
+    display: block;
+    margin-bottom: 8px; /* Espaço entre o label e o input */
+}
+
+.form-content input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+    margin-bottom: 4px; /* Ajuste do espaço abaixo do input */
+}
+
+.form-content a {
+    display: block; /* Garante que a mensagem de erro fique logo abaixo do input */
+    margin-top: 4px; /* Espaço entre o input e a mensagem de erro */
+    color: #ff3b25;
+    text-decoration: none;
+    font-size: 12px; /* Tamanho da fonte para a mensagem de erro */
+    visibility: hidden;
+}
+
+.form-content.erro input {
+    border-color: #ff3b25;
+}
+
+.form-content.erro a {
+    color: #ff3b25; /* Cor vermelha para a mensagem de erro */
+}
+
+.form-content .button {
+    display: inline-block;
+    background-color: #ff3b25;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form button {
+    background-color: #3acbf0;
+    color: #FFF;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+.form-content.erro input{
+
+    border-color: #ff3b25
+}
+
+.form-content.erro a{
+
+    color:#ff3b25;
+    visibility:visible
+
+}
